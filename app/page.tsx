@@ -1,7 +1,13 @@
+import Header from "@/components/layout/header";
+import Navbar from "@/components/layout/Navbar";
+import Hero from "@/components/home/Hero";
+
 export default function Home() {
   return (
-    <main>
-      <h1>B2B Portal</h1>
-    </main>
+    <>
+      <Header />
+      <Navbar />
+      <Hero />  
+    </>
   );
 }

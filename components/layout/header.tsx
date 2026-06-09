@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm border-b">
@@ -6,10 +8,16 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
 
           {/* Logo */}
-          <div>
-            <h1 className="text-2xl font-bold text-blue-600">
-              B2B Portal
-            </h1>
+          <div className="flex items-center">
+            
+              <Image
+                src="/images/vidyalive_logo.webp"
+                alt="B2B Portal Logo"
+                width={150}
+                height={150}
+                className="inline-block ml-2"
+              />
+               
           </div>
 
           {/* Search */}
