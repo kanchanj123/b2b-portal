@@ -7,7 +7,7 @@ export default function Header() {
 
         <div className="flex items-center justify-between h-16">
 
-          {/* Logo */}
+          {/* Logo  new */}
           <div className="flex items-center">
             
               <Image
