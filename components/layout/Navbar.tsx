@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="bg-gray-50 border-b">
+<nav className="bg-gray-50 border-b-0">
       <div className="max-w-7xl mx-auto px-4">
 
         <ul className="flex gap-8 h-12 items-center text-sm font-medium">
